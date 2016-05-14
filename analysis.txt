@@ -1,0 +1,752 @@
+
+----------------------LEXER----------------------
+
+start <function program at 0x7fbf72d77578>
+getsym: varsym var
+start <function block at 0x7fbf72d77488>
+accepting constsym == varsym
+accepting varsym == varsym
+getsym: ident x
+expecting ident
+accepting ident == ident
+getsym: comma ,
+accepting comma == comma
+getsym: ident y
+expecting ident
+accepting ident == ident
+getsym: semicolon ;
+accepting comma == semicolon
+expecting semicolon
+accepting semicolon == semicolon
+getsym: beginsym begin
+accepting procsym == beginsym
+start <function statement at 0x7fbf72d77398>
+accepting ident == beginsym
+accepting callsym == beginsym
+accepting beginsym == beginsym
+getsym: forsym for
+StatList : new 140460242185936
+start <function statement at 0x7fbf72d77398>
+accepting ident == forsym
+accepting callsym == forsym
+accepting beginsym == forsym
+accepting ifsym == forsym
+accepting whilesym == forsym
+accepting forsym == forsym
+getsym: ident x
+start <function assign at 0x7fbf72d772a8>
+accepting ident == ident
+getsym: becomes :=
+Looking up x
+expecting becomes
+accepting becomes == becomes
+getsym: number 0
+start <function expression at 0x7fbf72d770c8>
+start <function term at 0x7fbf72d7af50>
+start <function factor at 0x7fbf72d7ae60>
+accepting ident == number
+accepting number == number
+getsym: semicolon ;
+end <function factor at 0x7fbf72d7ae60>
+end <function term at 0x7fbf72d7af50>
+end <function expression at 0x7fbf72d770c8>
+end <function assign at 0x7fbf72d772a8>
+expecting semicolon
+accepting semicolon == semicolon
+getsym: ident x
+start <function condition at 0x7fbf72d771b8>
+accepting oddsym == ident
+start <function expression at 0x7fbf72d770c8>
+start <function term at 0x7fbf72d7af50>
+start <function factor at 0x7fbf72d7ae60>
+accepting ident == ident
+getsym: leq <=
+Looking up x
+end <function factor at 0x7fbf72d7ae60>
+end <function term at 0x7fbf72d7af50>
+end <function expression at 0x7fbf72d770c8>
+getsym: number 10
+condition operator leq number
+start <function expression at 0x7fbf72d770c8>
+start <function term at 0x7fbf72d7af50>
+start <function factor at 0x7fbf72d7ae60>
+accepting ident == number
+accepting number == number
+getsym: semicolon ;
+end <function factor at 0x7fbf72d7ae60>
+end <function term at 0x7fbf72d7af50>
+end <function expression at 0x7fbf72d770c8>
+end <function condition at 0x7fbf72d771b8>
+expecting semicolon
+accepting semicolon == semicolon
+getsym: ident x
+start <function assign at 0x7fbf72d772a8>
+accepting ident == ident
+getsym: becomes :=
+Looking up x
+expecting becomes
+accepting becomes == becomes
+getsym: ident x
+start <function expression at 0x7fbf72d770c8>
+start <function term at 0x7fbf72d7af50>
+start <function factor at 0x7fbf72d7ae60>
+accepting ident == ident
+getsym: plus +
+Looking up x
+end <function factor at 0x7fbf72d7ae60>
+end <function term at 0x7fbf72d7af50>
+getsym: number 1
+start <function term at 0x7fbf72d7af50>
+start <function factor at 0x7fbf72d7ae60>
+accepting ident == number
+accepting number == number
+getsym: dosym do
+end <function factor at 0x7fbf72d7ae60>
+end <function term at 0x7fbf72d7af50>
+end <function expression at 0x7fbf72d770c8>
+end <function assign at 0x7fbf72d772a8>
+expecting dosym
+accepting dosym == dosym
+getsym: beginsym begin
+start <function statement at 0x7fbf72d77398>
+accepting ident == beginsym
+accepting callsym == beginsym
+accepting beginsym == beginsym
+getsym: print !
+StatList : new 140460242220112
+start <function statement at 0x7fbf72d77398>
+accepting ident == print
+accepting callsym == print
+accepting beginsym == print
+accepting ifsym == print
+accepting whilesym == print
+accepting forsym == print
+accepting print == print
+getsym: ident y
+expecting ident
+accepting ident == ident
+getsym: semicolon ;
+Looking up y
+end <function statement at 0x7fbf72d77398>
+StatList: appending 140460242220176 of type <class 'ir.PrintStat'> to 140460242220112
+accepting semicolon == semicolon
+getsym: ident x
+start <function statement at 0x7fbf72d77398>
+accepting ident == ident
+getsym: becomes :=
+Looking up x
+expecting becomes
+accepting becomes == becomes
+getsym: ident x
+start <function expression at 0x7fbf72d770c8>
+start <function term at 0x7fbf72d7af50>
+start <function factor at 0x7fbf72d7ae60>
+accepting ident == ident
+getsym: plus +
+Looking up x
+end <function factor at 0x7fbf72d7ae60>
+end <function term at 0x7fbf72d7af50>
+getsym: number 1
+start <function term at 0x7fbf72d7af50>
+start <function factor at 0x7fbf72d7ae60>
+accepting ident == number
+accepting number == number
+getsym: endsym end
+end <function factor at 0x7fbf72d7ae60>
+end <function term at 0x7fbf72d7af50>
+end <function expression at 0x7fbf72d770c8>
+end <function statement at 0x7fbf72d77398>
+StatList: appending 140460242220560 of type <class 'ir.AssignStat'> to 140460242220112
+accepting semicolon == endsym
+expecting endsym
+accepting endsym == endsym
+getsym: endsym end
+StatList 140460242220112 : [ 140460242220176 140460242220560 ]
+end <function statement at 0x7fbf72d77398>
+end <function statement at 0x7fbf72d77398>
+StatList: appending 140460242220624 of type <class 'ir.ForStat'> to 140460242185936
+accepting semicolon == endsym
+expecting endsym
+accepting endsym == endsym
+getsym: period .
+StatList 140460242185936 : [ 140460242220624 ]
+end <function statement at 0x7fbf72d77398>
+end <function block at 0x7fbf72d77488>
+expecting period
+accepting period == period
+end <function program at 0x7fbf72d77578>
+
+------------------ENDLEXER----------------------
+
+
+-----------------PRINT-TREE---------------------
+
+
+<class 'ir.Block'> 140460242220688 {
+	body: 	<class 'ir.StatList'> 140460242185936 {
+		children:
+		<class 'ir.ForStat'> 140460242220624 {
+			body: 	<class 'ir.StatList'> 140460242220112 {
+				children:
+				<class 'ir.PrintStat'> 140460242220176 {
+					symbol: 	int y
+				}
+				<class 'ir.AssignStat'> 140460242220560 {
+					expr: 	<class 'ir.BinExpr'> 140460242220496 {
+						children:
+						'plus'
+						<class 'ir.Var'> 140460242220304 {
+							symbol: 	int x
+						}
+						<class 'ir.Const'> 140460242220432 {
+							symbol: 	None
+							value: 	'1'
+						}
+					}
+					symbol: 	int x
+				}
+			}
+			init: 	<class 'ir.AssignStat'> 140460242219600 {
+				expr: 	<class 'ir.Const'> 140460242219472 {
+					symbol: 	None
+					value: 	'0'
+				}
+				symbol: 	int x
+			}
+			cond: 	<class 'ir.BinExpr'> 140460242219792 {
+				children:
+				'leq'
+				<class 'ir.Var'> 140460242219664 {
+					symbol: 	int x
+				}
+				<class 'ir.Const'> 140460242219728 {
+					symbol: 	None
+					value: 	'10'
+				}
+			}
+			step: 	<class 'ir.AssignStat'> 140460242220048 {
+				expr: 	<class 'ir.BinExpr'> 140460242219984 {
+					children:
+					'plus'
+					<class 'ir.Var'> 140460242219856 {
+						symbol: 	int x
+					}
+					<class 'ir.Const'> 140460242219920 {
+						symbol: 	None
+						value: 	'1'
+					}
+				}
+				symbol: 	int x
+			}
+		}
+	}
+	defs: 	<class 'ir.DefinitionList'> 140460242185424 {
+	}
+	local_symtab: 	SymbolTable:
+	int x
+	int y
+	
+	global_symtab: 	SymbolTable:
+	
+} 
+
+<class 'ir.Block'> 140460242220688
+<class 'ir.StatList'> 140460242185936
+StatList 140460242185936 : [ 140460242220624 ]
+navigating children of <class 'ir.StatList'> 140460242185936 1
+<class 'ir.ForStat'> 140460242220624
+<class 'ir.StatList'> 140460242220112
+StatList 140460242220112 : [ 140460242220176 140460242220560 ]
+navigating children of <class 'ir.StatList'> 140460242220112 2
+<class 'ir.PrintStat'> 140460242220176
+<class 'ir.AssignStat'> 140460242220560
+<class 'ir.BinExpr'> 140460242220496
+navigating children of <class 'ir.BinExpr'> 140460242220496 3
+<class 'ir.Var'> 140460242220304
+<class 'ir.Const'> 140460242220432
+<class 'ir.AssignStat'> 140460242219600
+<class 'ir.Const'> 140460242219472
+<class 'ir.BinExpr'> 140460242219792
+navigating children of <class 'ir.BinExpr'> 140460242219792 3
+<class 'ir.Var'> 140460242219664
+<class 'ir.Const'> 140460242219728
+<class 'ir.AssignStat'> 140460242220048
+<class 'ir.BinExpr'> 140460242219984
+navigating children of <class 'ir.BinExpr'> 140460242219984 3
+<class 'ir.Var'> 140460242219856
+<class 'ir.Const'> 140460242219920
+<class 'ir.DefinitionList'> 140460242185424
+navigating children of <class 'ir.StatList'> 140460242185936 1
+navigating children of <class 'ir.StatList'> 140460242220112 2
+navigating children of <class 'ir.BinExpr'> 140460242220496 3
+navigating children of <class 'ir.BinExpr'> 140460242219792 3
+navigating children of <class 'ir.BinExpr'> 140460242219984 3
+<class 'ir.Block'> 140460242220688 -> <type 'NoneType'> 140460264152480
+<class 'ir.StatList'> 140460242185936 -> <class 'ir.Block'> 140460242220688
+<class 'ir.ForStat'> 140460242220624 -> <class 'ir.StatList'> 140460242185936
+<class 'ir.StatList'> 140460242220112 -> <class 'ir.ForStat'> 140460242220624
+<class 'ir.PrintStat'> 140460242220176 -> <class 'ir.StatList'> 140460242220112
+<class 'ir.AssignStat'> 140460242220560 -> <class 'ir.StatList'> 140460242220112
+<class 'ir.BinExpr'> 140460242220496 -> <class 'ir.AssignStat'> 140460242220560
+<class 'ir.Var'> 140460242220304 -> <type 'NoneType'> 140460264152480
+<class 'ir.Const'> 140460242220432 -> <type 'NoneType'> 140460264152480
+<class 'ir.AssignStat'> 140460242219600 -> <class 'ir.ForStat'> 140460242220624
+<class 'ir.Const'> 140460242219472 -> <class 'ir.AssignStat'> 140460242219600
+<class 'ir.BinExpr'> 140460242219792 -> <class 'ir.ForStat'> 140460242220624
+<class 'ir.Var'> 140460242219664 -> <type 'NoneType'> 140460264152480
+<class 'ir.Const'> 140460242219728 -> <type 'NoneType'> 140460264152480
+<class 'ir.AssignStat'> 140460242220048 -> <class 'ir.ForStat'> 140460242220624
+<class 'ir.BinExpr'> 140460242219984 -> <class 'ir.AssignStat'> 140460242220048
+<class 'ir.Var'> 140460242219856 -> <type 'NoneType'> 140460264152480
+<class 'ir.Const'> 140460242219920 -> <type 'NoneType'> 140460264152480
+<class 'ir.DefinitionList'> 140460242185424 -> <class 'ir.Block'> 140460242220688
+
+Total nodes in IR: 19 
+
+
+------------------LOWERING----------------------
+
+STATLIST LOWERING
+StatList : new 140460242220944
+FOR LOWERING
+StatList: appending 140460242219600 of type <class 'ir.AssignStat'> to 140460242220944
+StatList : new 140460242221264
+LOWERING VAR: <class 'ir.Var'> 140460242219664 {
+	symbol: 	int x
+}
+StatList: appending 140460242221520 of type <class 'ir.LoadStat'> to 140460242221264
+StatList: appending 140460242221392 of type <class 'ir.BinStat'> to 140460242221264
+StatList: appending 140460242221328 of type <class 'ir.BinStat'> to 140460242221264
+StatList: appending 140460242221264 of type <class 'ir.StatList'> to 140460242220944
+StatList: appending 140460242221200 of type <class 'ir.JumpStat'> to 140460242220944
+StatList: appending 140460242220112 of type <class 'ir.StatList'> to 140460242220944
+StatList: appending 140460242220048 of type <class 'ir.AssignStat'> to 140460242220944
+StatList: appending 140460242221712 of type <class 'ir.JumpStat'> to 140460242220944
+StatList: appending 140460242221136 of type <class 'ir.EmptyStat'> to 140460242220944
+END FOR LOWERING
+END STATLIST LOWERING
+Lowering <class 'ir.StatList'> 140460242185936
+navigating children of <class 'ir.StatList'> 140460242185936 1
+STATLIST LOWERING
+LOWERING AssignStat
+StatList : new 140460242221840
+STATLIST LOWERING
+END STATLIST LOWERING
+STATLIST LOWERING
+LOWERING AssignStat
+StatList : new 140460242221968
+LOWERING VAR: <class 'ir.Var'> 140460242220304 {
+	symbol: 	int x
+}
+StatList: appending 140460242222288 of type <class 'ir.LoadStat'> to 140460242221968
+StatList: appending 140460242222032 of type <class 'ir.BinStat'> to 140460242221968
+StatList: appending 140460242222416 of type <class 'ir.StoreStat'> to 140460242221968
+END STATLIST LOWERING
+LOWERING AssignStat
+StatList : new 140460242221840
+LOWERING VAR: <class 'ir.Var'> 140460242219856 {
+	symbol: 	int x
+}
+StatList: appending 140460242222608 of type <class 'ir.LoadStat'> to 140460242221840
+StatList: appending 140460242222480 of type <class 'ir.BinStat'> to 140460242221840
+StatList: appending 140460242222736 of type <class 'ir.StoreStat'> to 140460242221840
+END STATLIST LOWERING
+Lowering <class 'ir.StatList'> 140460242220944
+navigating children of <class 'ir.StatList'> 140460242220944 7
+STATLIST LOWERING
+END STATLIST LOWERING
+Lowering <class 'ir.StatList'> 140460242221264
+navigating children of <class 'ir.StatList'> 140460242221264 3
+STATLIST LOWERING
+STATLIST LOWERING
+END STATLIST LOWERING
+END STATLIST LOWERING
+Lowering <class 'ir.StatList'> 140460242220112
+navigating children of <class 'ir.StatList'> 140460242220112 2
+STATLIST LOWERING
+END STATLIST LOWERING
+Lowering <class 'ir.StatList'> 140460242221968
+navigating children of <class 'ir.StatList'> 140460242221968 3
+STATLIST LOWERING
+END STATLIST LOWERING
+Lowering <class 'ir.StatList'> 140460242221840
+navigating children of <class 'ir.StatList'> 140460242221840 3
+navigating children of <class 'ir.StatList'> 140460242185936 1
+navigating children of <class 'ir.StatList'> 140460242220944 7
+navigating children of <class 'ir.StatList'> 140460242221264 3
+navigating children of <class 'ir.StatList'> 140460242220112 2
+navigating children of <class 'ir.StatList'> 140460242221968 3
+navigating children of <class 'ir.StatList'> 140460242221840 3
+
+<class 'ir.Block'> 140460242220688 {
+	body: 	<class 'ir.StatList'> 140460242185936 {
+		children:
+		<class 'ir.StatList'> 140460242220944 {
+			children:
+			<class 'ir.StoreStat'> 140460242221904 {
+				source: 	<class 'ir.Const'> 140460242219472 {
+					symbol: 	None
+					value: 	'0'
+				}
+				symbol: 	int x
+			}
+			<class 'ir.StatList'> 140460242221264 {
+				children:
+				label1: <class 'ir.LoadStat'> 140460242221520 {
+					source: 	int x
+					symbol: 	int 1TEMP
+					label: 	label label1
+				}
+				<class 'ir.BinStat'> 140460242221392 {
+					operator: 	'leq'
+					symbol: 	int 2TEMP
+					operands: 	[int 1TEMP, <class 'ir.Const'> 140460242219728 {
+						symbol: 	None
+						value: 	'10'
+					}]
+				}
+				<class 'ir.BinStat'> 140460242221328 {
+					operator: 	'!'
+					symbol: 	int 3TEMP
+					operands: 	[int 2TEMP]
+				}
+			}
+			<class 'ir.JumpStat'> 140460242221200 {
+				symbol: 	int 3TEMP
+				target: 	label label2
+			}
+			<class 'ir.StatList'> 140460242220112 {
+				children:
+				<class 'ir.PrintStat'> 140460242220176 {
+					symbol: 	int y
+				}
+				<class 'ir.StatList'> 140460242221968 {
+					children:
+					<class 'ir.LoadStat'> 140460242222288 {
+						source: 	int x
+						symbol: 	int 4TEMP
+					}
+					<class 'ir.BinStat'> 140460242222032 {
+						operator: 	'plus'
+						symbol: 	int 5TEMP
+						operands: 	[int 4TEMP, <class 'ir.Const'> 140460242220432 {
+							symbol: 	None
+							value: 	'1'
+						}]
+					}
+					<class 'ir.StoreStat'> 140460242222416 {
+						source: 	int 5TEMP
+						symbol: 	int x
+					}
+				}
+			}
+			<class 'ir.StatList'> 140460242221840 {
+				children:
+				<class 'ir.LoadStat'> 140460242222608 {
+					source: 	int x
+					symbol: 	int 6TEMP
+				}
+				<class 'ir.BinStat'> 140460242222480 {
+					operator: 	'plus'
+					symbol: 	int 7TEMP
+					operands: 	[int 6TEMP, <class 'ir.Const'> 140460242219920 {
+						symbol: 	None
+						value: 	'1'
+					}]
+				}
+				<class 'ir.StoreStat'> 140460242222736 {
+					source: 	int 7TEMP
+					symbol: 	int x
+				}
+			}
+			<class 'ir.JumpStat'> 140460242221712 {
+				symbol: 	None
+				target: 	label label1
+			}
+			label2: <class 'ir.EmptyStat'> 140460242221136 {
+				label: 	label label2
+			}
+		}
+	}
+	defs: 	<class 'ir.DefinitionList'> 140460242185424 {
+	}
+	local_symtab: 	SymbolTable:
+	int x
+	int y
+	
+	global_symtab: 	SymbolTable:
+	
+} 
+
+<class 'ir.Block'> 140460242220688
+<class 'ir.StatList'> 140460242185936
+Not flattening 140460242185936 into 140460242220688 of type <class 'ir.Block'>
+<class 'ir.StatList'> 140460242220944
+Flattening 140460242220944 into 140460242185936
+<class 'ir.StoreStat'> 140460242221904
+<class 'ir.StatList'> 140460242221264
+Flattening 140460242221264 into 140460242185936
+<class 'ir.LoadStat'> 140460242221520
+<class 'ir.BinStat'> 140460242221392
+<class 'ir.BinStat'> 140460242221328
+<class 'ir.JumpStat'> 140460242221200
+<class 'ir.StatList'> 140460242220112
+Flattening 140460242220112 into 140460242185936
+<class 'ir.PrintStat'> 140460242220176
+<class 'ir.StatList'> 140460242221968
+Flattening 140460242221968 into 140460242185936
+<class 'ir.LoadStat'> 140460242222288
+<class 'ir.BinStat'> 140460242222032
+<class 'ir.StoreStat'> 140460242222416
+<class 'ir.StatList'> 140460242221840
+Flattening 140460242221840 into 140460242185936
+<class 'ir.LoadStat'> 140460242222608
+<class 'ir.BinStat'> 140460242222480
+<class 'ir.StoreStat'> 140460242222736
+<class 'ir.JumpStat'> 140460242221712
+<class 'ir.EmptyStat'> 140460242221136
+<class 'ir.DefinitionList'> 140460242185424
+
+-----------------FLATTENING----------------------
+
+Not flattening 140460242185936 into 140460242220688 of type <class 'ir.Block'>
+Flattening <class 'ir.StatList'> 140460242185936
+Failed!
+navigating children of <class 'ir.StatList'> 140460242185936 14
+
+<class 'ir.Block'> 140460242220688 {
+	body: 	<class 'ir.StatList'> 140460242185936 {
+		children:
+		<class 'ir.StoreStat'> 140460242221904 {
+			source: 	<class 'ir.Const'> 140460242219472 {
+				symbol: 	None
+				value: 	'0'
+			}
+			symbol: 	int x
+		}
+		label1: <class 'ir.LoadStat'> 140460242221520 {
+			source: 	int x
+			symbol: 	int 1TEMP
+			label: 	label label1
+		}
+		<class 'ir.BinStat'> 140460242221392 {
+			operator: 	'leq'
+			symbol: 	int 2TEMP
+			operands: 	[int 1TEMP, <class 'ir.Const'> 140460242219728 {
+				symbol: 	None
+				value: 	'10'
+			}]
+		}
+		<class 'ir.BinStat'> 140460242221328 {
+			operator: 	'!'
+			symbol: 	int 3TEMP
+			operands: 	[int 2TEMP]
+		}
+		<class 'ir.JumpStat'> 140460242221200 {
+			symbol: 	int 3TEMP
+			target: 	label label2
+		}
+		<class 'ir.PrintStat'> 140460242220176 {
+			symbol: 	int y
+		}
+		<class 'ir.LoadStat'> 140460242222288 {
+			source: 	int x
+			symbol: 	int 4TEMP
+		}
+		<class 'ir.BinStat'> 140460242222032 {
+			operator: 	'plus'
+			symbol: 	int 5TEMP
+			operands: 	[int 4TEMP, <class 'ir.Const'> 140460242220432 {
+				symbol: 	None
+				value: 	'1'
+			}]
+		}
+		<class 'ir.StoreStat'> 140460242222416 {
+			source: 	int 5TEMP
+			symbol: 	int x
+		}
+		<class 'ir.LoadStat'> 140460242222608 {
+			source: 	int x
+			symbol: 	int 6TEMP
+		}
+		<class 'ir.BinStat'> 140460242222480 {
+			operator: 	'plus'
+			symbol: 	int 7TEMP
+			operands: 	[int 6TEMP, <class 'ir.Const'> 140460242219920 {
+				symbol: 	None
+				value: 	'1'
+			}]
+		}
+		<class 'ir.StoreStat'> 140460242222736 {
+			source: 	int 7TEMP
+			symbol: 	int x
+		}
+		<class 'ir.JumpStat'> 140460242221712 {
+			symbol: 	None
+			target: 	label label1
+		}
+		label2: <class 'ir.EmptyStat'> 140460242221136 {
+			label: 	label label2
+		}
+	}
+	defs: 	<class 'ir.DefinitionList'> 140460242185424 {
+	}
+	local_symtab: 	SymbolTable:
+	int x
+	int y
+	
+	global_symtab: 	SymbolTable:
+	
+} 
+
+
+------------------GENOFFSET----------------------
+
+navigating children of <class 'ir.StatList'> 140460242185936 14
+
+<class 'ir.Block'> 140460242220688 {
+	body: 	<class 'ir.StatList'> 140460242185936 {
+		children:
+		<class 'ir.StoreStat'> 140460242221904 {
+			source: 	<class 'ir.Const'> 140460242219472 {
+				symbol: 	None
+				value: 	'0'
+			}
+			symbol: 	int x
+		}
+		label1: <class 'ir.LoadStat'> 140460242221520 {
+			source: 	int x
+			symbol: 	int 1TEMP
+			label: 	label label1
+		}
+		<class 'ir.BinStat'> 140460242221392 {
+			operator: 	'leq'
+			symbol: 	int 2TEMP
+			operands: 	[int 1TEMP, <class 'ir.Const'> 140460242219728 {
+				symbol: 	None
+				value: 	'10'
+			}]
+		}
+		<class 'ir.BinStat'> 140460242221328 {
+			operator: 	'!'
+			symbol: 	int 3TEMP
+			operands: 	[int 2TEMP]
+		}
+		<class 'ir.JumpStat'> 140460242221200 {
+			symbol: 	int 3TEMP
+			target: 	label label2
+		}
+		<class 'ir.PrintStat'> 140460242220176 {
+			symbol: 	int y
+		}
+		<class 'ir.LoadStat'> 140460242222288 {
+			source: 	int x
+			symbol: 	int 4TEMP
+		}
+		<class 'ir.BinStat'> 140460242222032 {
+			operator: 	'plus'
+			symbol: 	int 5TEMP
+			operands: 	[int 4TEMP, <class 'ir.Const'> 140460242220432 {
+				symbol: 	None
+				value: 	'1'
+			}]
+		}
+		<class 'ir.StoreStat'> 140460242222416 {
+			source: 	int 5TEMP
+			symbol: 	int x
+		}
+		<class 'ir.LoadStat'> 140460242222608 {
+			source: 	int x
+			symbol: 	int 6TEMP
+		}
+		<class 'ir.BinStat'> 140460242222480 {
+			operator: 	'plus'
+			symbol: 	int 7TEMP
+			operands: 	[int 6TEMP, <class 'ir.Const'> 140460242219920 {
+				symbol: 	None
+				value: 	'1'
+			}]
+		}
+		<class 'ir.StoreStat'> 140460242222736 {
+			source: 	int 7TEMP
+			symbol: 	int x
+		}
+		<class 'ir.JumpStat'> 140460242221712 {
+			symbol: 	None
+			target: 	label label1
+		}
+		label2: <class 'ir.EmptyStat'> 140460242221136 {
+			label: 	label label2
+		}
+	}
+	defs: 	<class 'ir.DefinitionList'> 140460242185424 {
+	}
+	local_symtab: 	SymbolTable:
+	int x
+	int y
+	
+	global_symtab: 	SymbolTable:
+	
+} 
+
+navigating children of <class 'ir.StatList'> 140460242185936 14
+
+---------------------CFG------------------------
+
+navigating children of <class 'ir.StatList'> 140460242185936 14
+
+------------------LIVENESS----------------------
+
+Liveness sets
+140460242265680 [label="BB140460242265680{
+<class 'ir.StoreStat'>}"];
+140460242265680 -> 140460242265744 [label="set([int 2TEMP, int 3TEMP])"];
+
+gen: set([])
+kill: set([])
+live_in: set([int 2TEMP, int 3TEMP])
+live_out: set([int 2TEMP, int 3TEMP])
+140460242265744 [label="BB140460242265744{
+[label label1]
+<class 'ir.LoadStat'>
+<class 'ir.BinStat'>
+<class 'ir.BinStat'>
+<class 'ir.JumpStat'>}"];
+140460242265744 -> 140460242264848 [label="set([int 2TEMP, int 3TEMP])"];
+140460242265744 -> 140460242265616 [style=dashed,label="set([])"];
+
+gen: set([int 2TEMP, int 3TEMP])
+kill: set([int 1TEMP])
+live_in: set([int 2TEMP, int 3TEMP])
+live_out: set([int 2TEMP, int 3TEMP])
+140460242264848 [label="BB140460242264848{
+<class 'ir.PrintStat'>
+<class 'ir.LoadStat'>
+<class 'ir.BinStat'>
+<class 'ir.StoreStat'>
+<class 'ir.LoadStat'>
+<class 'ir.BinStat'>
+<class 'ir.StoreStat'>
+<class 'ir.JumpStat'>}"];
+140460242264848 -> 140460242265744 [style=dashed,label="set([int 2TEMP, int 3TEMP])"];
+
+gen: set([])
+kill: set([int 4TEMP, int 6TEMP])
+live_in: set([int 2TEMP, int 3TEMP])
+live_out: set([int 2TEMP, int 3TEMP])
+140460242265616 [label="BB140460242265616{
+[label label2]
+<class 'ir.EmptyStat'>}"];
+140460242265616 -> exit140460242365248 [label="set([])"];
+
+gen: set([])
+kill: set([])
+live_in: set([])
+live_out: set([])
+
+----------------GEN-DOT-FILE--------------------
+
+
+------------------REGALLOC----------------------
+
+{int 1TEMP: 2, int 2TEMP: 1, int 6TEMP: 4, int 3TEMP: 0, int 4TEMP: 3}

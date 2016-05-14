@@ -1,0 +1,1019 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ch",
+				"children"
+			],
+			[
+				"re",
+				"replace"
+			],
+			[
+				"low",
+				"lowerAndAppendToStatList"
+			],
+			[
+				"ge",
+				"getOperator"
+			],
+			[
+				"oper",
+				"operand"
+			],
+			[
+				"getOp",
+				"getOperands"
+			],
+			[
+				"getOP",
+				"getOperands"
+			],
+			[
+				"get",
+				"getOperand"
+			],
+			[
+				"lowe",
+				"lowerAndGetDestination"
+			],
+			[
+				"de",
+				"dest_symbol"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"bin",
+				"bin_stat"
+			],
+			[
+				"wp",
+				"wrapped_stat_list"
+			],
+			[
+				"sta",
+				"stat_list"
+			],
+			[
+				"wrp",
+				"wrapped_stat_list"
+			],
+			[
+				"wr",
+				"wrapped_stat_list"
+			],
+			[
+				"gen",
+				"generated_temp"
+			],
+			[
+				"passing",
+				"passing_stat_list"
+			],
+			[
+				"temp",
+				"temp_type"
+			],
+			[
+				"op",
+				"operands"
+			],
+			[
+				"orp",
+				"orpsoc_tb"
+			],
+			[
+				"con",
+				"cond_label"
+			],
+			[
+				"Stat",
+				"StatList"
+			],
+			[
+				"B",
+				"BranchStat"
+			],
+			[
+				"ini",
+				"iniExpr"
+			],
+			[
+				"ex",
+				"expression"
+			],
+			[
+				"s",
+				"symtab"
+			],
+			[
+				"ma",
+				"malloc"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"pull",
+				"pullToLeaf"
+			],
+			[
+				"sn",
+				"sonChildrenBuffer"
+			],
+			[
+				"del",
+				"delNode"
+			],
+			[
+				"tr",
+				"treeElementId"
+			],
+			[
+				"tree",
+				"treeElement"
+			],
+			[
+				"a",
+				"add"
+			],
+			[
+				"t",
+				"tree1"
+			],
+			[
+				"p",
+				"printTree"
+			],
+			[
+				"prin",
+				"printPipe"
+			],
+			[
+				"__",
+				"__nestedPrint"
+			],
+			[
+				"Tre",
+				"TreeElement"
+			],
+			[
+				"c",
+				"children"
+			],
+			[
+				"r",
+				"root"
+			],
+			[
+				"add",
+				"addTree"
+			],
+			[
+				"Tr",
+				"TreeElement"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"set",
+				"setNext"
+			],
+			[
+				"List",
+				"ListElement"
+			],
+			[
+				"cl",
+				"clone"
+			],
+			[
+				"next",
+				"nextElement"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"LIs",
+				"ListElement"
+			],
+			[
+				"lo",
+				"lookAhead"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"e",
+				"expression"
+			],
+			[
+				"be",
+				"begin	begin:"
+			],
+			[
+				"st",
+				"storage"
+			],
+			[
+				"o",
+				"other"
+			],
+			[
+				"co",
+				"constant"
+			],
+			[
+				"sou",
+				"source_buff_exp"
+			],
+			[
+				"dest",
+				"dest_index_exp"
+			],
+			[
+				"load",
+				"loadArrayElement"
+			],
+			[
+				"des",
+				"dest_index_exp"
+			],
+			[
+				"val",
+				"valueToCopy"
+			],
+			[
+				"array",
+				"arraySize"
+			],
+			[
+				"ind",
+				"index_exp"
+			],
+			[
+				"buffer",
+				"bufferRegister"
+			],
+			[
+				"t_ax",
+				"t_axe_expression"
+			],
+			[
+				"pr",
+				"program"
+			],
+			[
+				"stor",
+				"storeArrayElement"
+			],
+			[
+				"loa",
+				"loadArrayElement"
+			],
+			[
+				"au",
+				"audioLock"
+			],
+			[
+				"vid",
+				"videoLock"
+			],
+			[
+				"vi",
+				"videoFun"
+			],
+			[
+				"i",
+				"inc	#include \"…\""
+			],
+			[
+				"th",
+				"thread"
+			],
+			[
+				"en",
+				"enc_op"
+			],
+			[
+				"thr",
+				"threadId"
+			],
+			[
+				"sh",
+				"shm_name"
+			],
+			[
+				"ms",
+				"msg"
+			],
+			[
+				"msg",
+				"msgLength"
+			],
+			[
+				"C",
+				"CFLAGS"
+			],
+			[
+				"m",
+				"m_name"
+			],
+			[
+				"fu",
+				"funct"
+			],
+			[
+				"nt",
+				"nThreads"
+			],
+			[
+				"Th",
+				"ThreadMember"
+			],
+			[
+				"T",
+				"ThreadMember"
+			],
+			[
+				"S",
+				"SyncQueue"
+			],
+			[
+				"do",
+				"doNothing"
+			],
+			[
+				"fi",
+				"function"
+			],
+			[
+				"n",
+				"nThr"
+			],
+			[
+				"d",
+				"def	#ifndef … #define … #endif"
+			],
+			[
+				"Pr",
+				"ProdConsQueue"
+			],
+			[
+				"b",
+				"m_buffer"
+			],
+			[
+				"P",
+				"ProdConsQueue"
+			],
+			[
+				"no",
+				"notify_one"
+			],
+			[
+				"my",
+				"myThreadFunction"
+			],
+			[
+				"is",
+				"isMajEq"
+			],
+			[
+				"h",
+				"head"
+			],
+			[
+				"HAL",
+				"HALF_STRING"
+			],
+			[
+				"max",
+				"maxByte"
+			],
+			[
+				"g",
+				"getDecPart"
+			],
+			[
+				"rbt",
+				"rbtEl"
+			],
+			[
+				"rb",
+				"rbtEl"
+			],
+			[
+				"atom",
+				"atomic_flag"
+			],
+			[
+				"ret",
+				"ret_precision"
+			],
+			[
+				"v",
+				"vector	std::vector"
+			],
+			[
+				"Big",
+				"BigUtilsTest"
+			],
+			[
+				"A",
+				"ASSERT_TRUE"
+			],
+			[
+				"Bi",
+				"BigTestLogic"
+			],
+			[
+				"dec",
+				"decPartCompareResult"
+			],
+			[
+				"com",
+				"compareDec"
+			],
+			[
+				"getM",
+				"getMaxByte"
+			],
+			[
+				"tes",
+				"testMod"
+			],
+			[
+				"eq",
+				"equals"
+			],
+			[
+				"nu",
+				"numMod"
+			],
+			[
+				"one",
+				"ONE_STRING"
+			],
+			[
+				"ze",
+				"ZERO_STRING"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"new",
+				"newSign"
+			],
+			[
+				"IN",
+				"IntPart"
+			],
+			[
+				"va",
+				"valueMap"
+			],
+			[
+				"print",
+				"Printing"
+			],
+			[
+				"sec",
+				"second"
+			],
+			[
+				"int",
+				"intPart"
+			],
+			[
+				"In",
+				"IntPart"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"se",
+				"set"
+			],
+			[
+				"num",
+				"number"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				]
+			],
+			[
+				"Packages/PackageDev/Support/Convert to ....sublime-build",
+				"Property List"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"quit",
+			"exit",
+			"ls",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/fusiled/uni/Code Transformation and Optimization/sample"
+	],
+	"file_history":
+	[
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/analysis.txt",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/lexer.py",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/frontend.py",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/ir.py",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/logger.py",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/stuff.txt",
+		"/home/fusiled/Desktop/orpsocV3/README.txt",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx-generic/bench/verilog/orpsoc_tb.v",
+		"/home/fusiled/cot",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx.v",
+		"/home/fusiled/Desktop/orpsocV3/result.txt",
+		"/home/fusiled/Desktop/sniper/Makefile",
+		"/home/fusiled/Desktop/sniper/Makefile.config",
+		"/home/fusiled/Desktop/sniper/common/Makefile.common",
+		"/home/fusiled/Desktop/orpsocV3/Makefile",
+		"/home/fusiled/Desktop/orpsocV3/makeDir/compile",
+		"/home/fusiled/Desktop/sniper/common/Makefile",
+		"/home/fusiled/Desktop/orpsocV3/compile",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/bench/verilog/mor1kx_monitor.v",
+		"/home/fusiled/Desktop/orpsocV3/file_list.scr",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/support.py",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/regalloc.py",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/log.txt",
+		"/home/fusiled/Desktop/orpsocV3/build/mor1kx-general.log",
+		"/home/fusiled/Desktop/orpsocV3/build/mor1kx-trace.log",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_dcache.v",
+		"/home/fusiled/Desktop/sniper/pin_kit/source/include/pin/compiler_version_check2.H",
+		"/home/fusiled/Desktop/sniper/sift/sift.h",
+		"/home/fusiled/Desktop/sniper/sift/Makefile",
+		"/home/fusiled/Desktop/sniper/pin_kit/source/include/pin/gen/cc_used_ia32_l.CVH",
+		"/home/fusiled/Desktop/sniper/pin_kit/source/include/pin/gen/cc_used_ia32e_l.CVH",
+		"/home/fusiled/Desktop/sniper/pin_kit/source/tools/makefile",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_lsu_cappuccino.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_dmmu.v",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/cfg.py",
+		"/home/fusiled/Desktop/sniper-6.1/Makefile",
+		"/home/fusiled/Desktop/sniper-6.1/common/Makefile.common",
+		"/home/fusiled/Desktop/sniper-6.1/sift/Makefile",
+		"/home/fusiled/Desktop/sniper-6.1/Makefile.config",
+		"/home/fusiled/Desktop/sniper-6.1/common/Makefile",
+		"/home/fusiled/Desktop/sniper-6.1/pin_kit/inscount.out",
+		"/home/fusiled/Desktop/sniper-6.1/pin_kit/doc/html/search.php",
+		"/home/fusiled/Desktop/sniper-6.1/pin_kit/intel64/runtime/pincrt/linker",
+		"/home/fusiled/Desktop/sniper-6.1/COMPILATION",
+		"/home/fusiled/Desktop/sniper-6.1/README",
+		"/home/fusiled/Desktop/DB",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/notes.txt",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_cpu_cappuccino.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_fetch_cappuccino.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx-defines.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_ctrl_cappuccino.v",
+		"/home/fusiled/uni/Code Transformation and Optimization/sample/log",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_icache.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx-sprs.v",
+		"/home/fusiled/Desktop/wbsignals.txt",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_cfgrs.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_cache_lru.v",
+		"/home/fusiled/Desktop/read.txt",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_cpu_prontoespresso.v",
+		"/home/fusiled/Desktop/dis.txt",
+		"/home/fusiled/Desktop/dis.txty",
+		"/home/fusiled/Desktop/cpp/see.txt",
+		"/home/fusiled/Downloads/jung2-2_0_1.zip",
+		"/home/fusiled/Desktop/acse_1.1.0/acse/misc.h",
+		"/home/fusiled/uni/thuum/lexer.lex",
+		"/home/fusiled/Desktop/acse_1.1.0/README",
+		"/home/fusiled/Desktop/acse_1.1.0/bin/test.fus",
+		"/home/fusiled/Desktop/acse_1.1.0/acse/Acse.lex",
+		"/tmp/xa-nKUgIq/pi.c",
+		"/home/fusiled/Desktop/acse_1.1.0/tests/fact/fact.src",
+		"/home/fusiled/Desktop/acse_1.1.0/acse/Acse.y",
+		"/home/fusiled/Desktop/acse_1.1.0/acse/axe_engine.c",
+		"/home/fusiled/Desktop/acse_1.1.0/acse/Acse.output",
+		"/home/fusiled/Desktop/acse_1.1.0/acse/lex.yy.c",
+		"/home/fusiled/Desktop/acse_1.1.0/acse/testMisc.c",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/doc/mor1kx.asciidoc",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_rf_cappuccino.v",
+		"/home/fusiled/uni/Code Transformation and Optimization/misc/data2.py",
+		"/tmp/xa-Rq7dZQ/Acse.lex",
+		"/home/fusiled/Desktop/pdsimad.txt",
+		"/home/fusiled/.config/user-dirs.locale",
+		"/home/fusiled/.config/user-dirs.dirs",
+		"/home/fusiled/.config/Trolltech.conf",
+		"/home/fusiled/uni/Code Transformation and Optimization/misc/my",
+		"/home/fusiled/uni/Code Transformation and Optimization/misc/Car.py",
+		"/home/fusiled/uni/Code Transformation and Optimization/misc/data.py",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_execute_alu.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_execute_ctrl_cappuccino.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_immu.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_cpu.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/yoDecode",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/yoTop",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/yoCache",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_wb_mux_cappuccino.v",
+		"/home/fusiled/Desktop/mor1kx_cpu_cappuccinoNOPARAM.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/yoScript",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_decode_execute_cappuccino.v",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/outTop.ps",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_bus_if_wb32.v",
+		"/home/fusiled/Desktop/orpsocV3/src/elf-loader/elf-loader.c",
+		"/home/fusiled/Desktop/orpsocV3/src/elf-loader/elf-loader.h",
+		"/home/fusiled/.gitconfig",
+		"/etc/ld.so.conf.d/ffmpeg2.8.conf",
+		"/etc/ld.so.conf.d/fakeroot.conf",
+		"/etc/libnl/classid",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/out.ps",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/out.ps.new",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_decode.v",
+		"/home/fusiled/.yosys_history",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/pfpu32/pfpu32_addsub.v",
+		"/home/fusiled/Desktop/mor1kx/doc/mor1kx.asciidoc",
+		"/home/fusiled/Desktop/mor1kx/README.pod",
+		"/home/fusiled/Desktop/exportOrpsoc.txt",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx-generic/rtl/verilog/orpsoc_top.v",
+		"/home/fusiled/Desktop/orpsocV3/src/uart16550-1.5.4/rtl/verilog/uart_top.v",
+		"/home/fusiled/Desktop/installor1k.bash",
+		"/home/fusiled/Desktop/dialog.c",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/doc/gen-docinfo.pl",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/doc/docbook.xsl",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_wb_mux_espresso.v",
+		"/home/fusiled/Desktop/orpsocV3/prova/fusesoc.elf",
+		"/home/fusiled/Desktop/orpsocV3/icarus.scr",
+		"/home/fusiled/Desktop/orpsocV3/src/mor1kx/rtl/verilog/mor1kx_ctrl_espresso.v",
+		"/home/fusiled/Desktop/orpsocV3/prova/icarus.log",
+		"/home/fusiled/Desktop/orpsocV3/build/mor1kx-generic/sim-icarus/icarus.scr",
+		"/home/fusiled/Desktop/fusesocCache/mor1kx/rtl/verilog/mor1kx_utils.vh",
+		"/home/fusiled/Desktop/fusesocCache/mor1kx/README.pod",
+		"/home/fusiled/.local/share/orpsoc-cores/cores/elf-loader/check_libelf.sh"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/fusiled/uni/Code Transformation and Optimization/sample",
+			"/home/fusiled/verilab",
+			"/home/fusiled/Desktop/acse_1.1.0",
+			"/home/fusiled/Desktop/acse_1.1.0 (copia 1)"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"class Action",
+			"def action",
+			"LW",
+			"LOWER",
+			"BinStat",
+			"AssignStat",
+			"StatList",
+			"ForStat",
+			"ABSPATH",
+			"CURDIR",
+			"build",
+			"class StatList",
+			"replace",
+			"BinExpr",
+			"Wrapped",
+			"def rep",
+			"def replace",
+			"]\n",
+			"BinStat",
+			"BinSt",
+			"ForStat",
+			"standard_types",
+			"IRNode",
+			"din_r",
+			"dout",
+			"way_dout",
+			"cpu_dat_o",
+			"cpu_dat_i",
+			"OR1K_SPR_DCBFR_ADDR",
+			"invalidate",
+			"REFILL",
+			"READ",
+			"way_dout",
+			"dout",
+			"way_dout",
+			"cpu_dat_o",
+			"bsel",
+			"WRITE",
+			"REFILL",
+			"way_din",
+			"way_wr_dat",
+			"cpu_dat_o",
+			"dbus_bsel",
+			"dc_bsel",
+			"cpu_bsel_i",
+			"siftdump",
+			"sF",
+			"refill_hit",
+			"refill_valid",
+			"next_refill_adr",
+			"refill_hit",
+			"dc_adr_match",
+			"cpu_adr_match_i",
+			"way_waddr",
+			"REFILL",
+			"way_waddr",
+			"refill_hit",
+			"refill_valid_r",
+			"refill_valid",
+			"wradr_i",
+			"refill_valid",
+			"REFILL",
+			"statlist",
+			"LoadStat",
+			"ForStat",
+			"lookup",
+			"ForStat",
+			"def lower",
+			"ForStat",
+			"codegen",
+			"StatList",
+			"lower",
+			"ForStat",
+			"init",
+			"ForStat",
+			"exit_stat",
+			"lowering",
+			"python",
+			"append",
+			"while",
+			"collect_uses",
+			"looking up",
+			"assign",
+			"ident",
+			"forStat",
+			"looking up",
+			"forsym",
+			"ForStat",
+			"forsym",
+			"looking up",
+			"INIT",
+			"StatList: appending",
+			"StatList",
+			"ForStat",
+			"__repr__",
+			"Stat",
+			"AssignStat",
+			"ERROR",
+			"DETECTING",
+			"RETURNING",
+			"while",
+			"forStat",
+			"AssignStat",
+			"ForStat",
+			"Fors",
+			"neq",
+			"ForStat",
+			"cfg",
+			"class IR",
+			"class IRNode",
+			"IRNode",
+			"Expr",
+			"Not",
+			"BranchStat",
+			"whilesym",
+			"ident",
+			"assi",
+			"ass",
+			"becomes",
+			"assign",
+			"assig",
+			"assignment",
+			"assign",
+			"statement",
+			"';'",
+			"expression",
+			"ident",
+			"expr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ROOT_DIR",
+			"PWD",
+			"$BUILDIR",
+			"cutSubtree",
+			"__name",
+			"",
+			"build",
+			"",
+			"tape",
+			"XOR_OP",
+			"SyncQueue",
+			"NR_CYCLES",
+			"BigUtils::compareInt",
+			"BigUtils::compareDec",
+			"IntPart",
+			"nIntByte",
+			"m",
+			"erase",
+			"count",
+			"IntPart",
+			"DecPart",
+			"Big",
+			"mrBig",
+			"Part",
+			"DecPart",
+			"IntPart",
+			"string"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 124.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "Packages/PackageDev/Support/Convert to ....sublime-build",
+	"project": "cot.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

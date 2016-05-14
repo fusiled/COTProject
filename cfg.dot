@@ -1,0 +1,29 @@
+digraph G {
+140460242265680 [label="BB140460242265680{
+<class 'ir.StoreStat'>}"];
+140460242265680 -> 140460242265744 [label="set([int 2TEMP, int 3TEMP])"];
+140460242265744 [label="BB140460242265744{
+[label label1]
+<class 'ir.LoadStat'>
+<class 'ir.BinStat'>
+<class 'ir.BinStat'>
+<class 'ir.JumpStat'>}"];
+140460242265744 -> 140460242264848 [label="set([int 2TEMP, int 3TEMP])"];
+140460242265744 -> 140460242265616 [style=dashed,label="set([])"];
+140460242264848 [label="BB140460242264848{
+<class 'ir.PrintStat'>
+<class 'ir.LoadStat'>
+<class 'ir.BinStat'>
+<class 'ir.StoreStat'>
+<class 'ir.LoadStat'>
+<class 'ir.BinStat'>
+<class 'ir.StoreStat'>
+<class 'ir.JumpStat'>}"];
+140460242264848 -> 140460242265744 [style=dashed,label="set([int 2TEMP, int 3TEMP])"];
+140460242265616 [label="BB140460242265616{
+[label label2]
+<class 'ir.EmptyStat'>}"];
+140460242265616 -> exit140460242365248 [label="set([])"];
+main [shape=box];
+main -> 140460242265680 [label="set([int 2TEMP, int 3TEMP])"];
+}

@@ -1,0 +1,42 @@
+
+
+VAR x, squ;
+
+PROCEDURE square;
+BEGIN
+   squ:= x * x
+END;
+
+BEGIN
+   x := 1;
+   WHILE x <= 10 DO
+   BEGIN
+      CALL square;
+      ! squ;
+      x := x + 1
+   END
+END.
+
+
+
+__test_program='''CONST INCR = 2 ;
+
+VAR x , res ;
+
+PROCEDURE double ;
+CONST factor = 2 ;
+VAR y ;
+BEGIN
+   y := 3 ;
+   res := 3 * x
+END;
+
+BEGIN
+   FOR x := 0 ; x <= 10 ; x := x + INCR DO
+   BEGIN
+      CALL double ;
+      ! res ;
+      x := x + 1
+   END
+END.
+'''
